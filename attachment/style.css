@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'amithin';
+    src: url('/font/Amithen.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+}
+.photo {
+    border:4px solid #21ff85;
+    border-radius: 50px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;    
+    box-shadow: 0 5px 20px rgba(175, 165, 165, 0.4);
+}
+
+
+.test {
+    font-family: amithin;
+    font-size: 30px;
+    text-align: center;
+    color: #21ff85;
+    padding-top:20px;
+}
+.line {
+    text-align: center;
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#preload {
+    background: #0e111f url(/images/loader.gif) no-repeat center center;
+
+    background-position: center;
+  background-size:30% ;
+    height:100%;
+    width:100%;
+    position: fixed;
+    cursor: pointer;
+    z-index: 100;
+}
+.test {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.photo {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  
+}
+.my {
+  color: #21ff85;
+}
