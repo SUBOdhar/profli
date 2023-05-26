@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'amithin';
-    src: url('font/Amithen.ttf') format('truetype');
+    src: url('/font/Amithen.ttf') format('truetype');
 }
 
 body {
@@ -33,7 +33,7 @@ body {
     margin-right: auto;
 }
 #preload {
-    background: #0e111f url(images/loader.gif) no-repeat center center;
+    background: #0e111f url(/images/loader.gif) no-repeat center center;
 
     background-position: center;
   background-size:30% ;
@@ -109,5 +109,36 @@ body {
   
 }
 .my {
+  margin-top: 10px;
   color: #21ff85;
+  font-family: amithin;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.icon img{
+  height: 5%;
+  margin-left: 5%;
+  border-bottom: #21ff85 solid;
+  margin-bottom: 10px;
+}
+.box {
+  border: #21ff85 solid;
+  border-radius: 25px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  box-shadow: 0 5px 20px rgba(175, 165, 165, 0.4);
+}
+ion-icon {
+  color:#21ff85;
+  font-size: 80px;
+  
+}
+.ic1 {
+  float: left;
+}
+.ic2 {
+  float: right;
+  transform: scaleX(-1);
 }
