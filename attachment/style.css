@@ -33,7 +33,7 @@ body {
     margin-right: auto;
 }
 #preload {
-    background: #0e111f url(/images/loader.gif) no-repeat center center;
+    background: #0e111f url(./images/loader.gif) no-repeat center center;
 
     background-position: center;
   background-size:30% ;
