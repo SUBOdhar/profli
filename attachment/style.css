@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'amithin';
-    src: url('/font/Amithen.ttf') format('truetype');
+    src: url('./font/Amithen.ttf') format('truetype');
 }
 
 body {
